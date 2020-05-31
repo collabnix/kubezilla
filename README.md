@@ -8,7 +8,7 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
   2. You can even contribute Your Raspberry Pi too if you know how to connect it to this cluster.
   3. Please also include your full name, Twitter's handle *and* your company name.
   4. Please note that the node's specification for this run is **XGB of RAM with X vCore**.
-  We're sorry that 512MB will be not enough for our testing this time.
+  We're sorry that 512MB will be not enough for our testing.
   
   
   ## What's mininum requirements of a node?
