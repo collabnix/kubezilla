@@ -37,7 +37,7 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
 
 
 ## Beginner's Guide
-If you're an individual and it's your first time joining SwarmZilla, we encourage you to *not* contribute more than 50 nodes.
+If you're an individual and it's your first time joining KubeZilla, we encourage you to *not* contribute more than 50 nodes.
 
 
 
