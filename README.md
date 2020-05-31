@@ -1,4 +1,4 @@
-# kubezilla Community Collaborative Project
+# KubeZilla Community Collaborative Project
 
 We are aiming to build a largest Kubernetes Community Cluster and target to showcase it on OSCONF Kochi Day.
 
