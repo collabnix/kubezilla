@@ -13,6 +13,7 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
   
   ## What's mininum requirements of a node?
   
+- Rancher 
 - Ubuntu 16.04+
 - Debian 9+
 - CentOS 7
