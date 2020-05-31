@@ -38,9 +38,9 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
 
 ## Beginner's Guide
 If you're an individual and it's your first time joining SwarmZilla, we encourage you to *not* contribute more than 50 nodes.
-The provision steps for number of nodes more than 50 will make things complex.
 
-If you're joining us for the second time (welcome back Heroes!!), feel free to contribute any number of nodes.
+
+
 
 ## Goals
 - This is the 1st collaborative project powered by Collabnix Slack community to form 100+ nodes
