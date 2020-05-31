@@ -11,7 +11,7 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
   We're sorry that 512MB will be not enough for our testing this time.
   
   
-  ## What's mininum requirements of a node?One or more machines running one of:
+  ## What's mininum requirements of a node?
   
 - Ubuntu 16.04+
 - Debian 9+
