@@ -32,8 +32,8 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
 
 | Name          | Company       | Number of Nodes<br>Expected to Contribute |
 | ------------- |:-------------:|:-----------------------------------------:|
-| [@ajeetsraina](https://twitter.com/ajeetsraina) | Ajeet Singh Raina | 10 |
-| [Your Name](https://twitter.com/yourid) | Your Name| 8 |
+| [@ajeetsraina](https://twitter.com/ajeetsraina) | Collabnix | 10 |
+| [Your Name](https://twitter.com/yourid) | Your Company Name| 8 |
 
 
 ## Beginner's Guide
