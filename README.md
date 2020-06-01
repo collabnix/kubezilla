@@ -36,6 +36,7 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
 | Name          | Company       | Number of Nodes<br>Expected to Contribute |
 | ------------- |:-------------:|:-----------------------------------------:|
 | [@ajeetsraina](https://twitter.com/ajeetsraina) | Collabnix | 10 |
+[@anmolnagpal](https://twitter.com/anmol_nagpal) | CloudDrove Inc. | 15 |
 | [Your Name](https://twitter.com/yourid) | Your Company Name| 8 |
 
 
