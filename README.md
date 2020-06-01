@@ -4,6 +4,10 @@
 
 We are aiming to build a largest Kubernetes Community Cluster and target to showcase it on OSCONF Kochi Day.
 
+## Why are we doing this?
+
+It's great opportunity for community members to learn, collaborate and contribute around Kubernetes and related technology. As a team, we will learn how Kubernetes cluster is setup, how apps gets deployed over Cloud and what kind of microservices can be run possibly on these HUGE clusters.Community members will learn how monitoring tools like Prometheus and Grafana can be deployed and fetch time-series metrics out of these HUGE cluster of nodes. In nutshell, it's 2-3 hour effort which will let every single individual to learn Kubernetes and understand its scalability.
+
 ## Contribution Proposal
 
   1. Create a pull request if you're interested to contribute your FREE Cloud instance(AWS/Azure/GCP/DO).
