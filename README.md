@@ -42,7 +42,7 @@ It's great opportunity for community members to learn, collaborate and contribut
 | Name          | Company       | Number of Nodes<br>Expected to Contribute | Machine Type |
 | ------------- |:-------------:|:-----------------------------------------:|:-------------:|
 | [@ajeetsraina](https://twitter.com/ajeetsraina) | Collabnix | 10 | |
-[@anmolnagpal](https://twitter.com/anmol_nagpal) | CloudDrove Inc. | 15 | |
+[@anmolnagpal](https://twitter.com/anmol_nagpal) | CloudDrove Inc. | 30 | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
 [@cube8021](https://twitter.com/cube8021) | Rancher Labs | 5 | |
 | [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 32 | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
 | [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 3 | Raspberry Pis 3B+/4B |
