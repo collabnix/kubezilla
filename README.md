@@ -1,6 +1,12 @@
 # KubeZilla Community Collaborative Project
 
+   ![image](https://github.com/collabnix/kubezilla/blob/master/images/kubezilla.png)
+
 We are aiming to build a largest Kubernetes Community Cluster and target to showcase it on OSCONF Kochi Day.
+
+## Why are we doing this?
+
+It's great opportunity for community members to learn, collaborate and contribute around Kubernetes and related technologies. As a team, we will learn how Kubernetes cluster is setup, how apps gets deployed over Cloud and what kind of microservices can be run possibly on these HUGE cluster nodes.Community members will learn how monitoring tools like Prometheus and Grafana can be deployed and fetch time-series metrics out of these HUGE cluster of nodes. In nutshell, it's 2-3 hour effort which will let every single individual to learn Kubernetes and understand its scalability.
 
 ## Contribution Proposal
 
@@ -33,11 +39,14 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
 ## Contributors
 
 
-| Name          | Company       | Number of Nodes<br>Expected to Contribute |
-| ------------- |:-------------:|:-----------------------------------------:|
-| [@ajeetsraina](https://twitter.com/ajeetsraina) | Collabnix | 10 |
-[@anmolnagpal](https://twitter.com/anmol_nagpal) | CloudDrove Inc. | 15 |
-| [Your Name](https://twitter.com/yourid) | Your Company Name| 8 |
+| Name          | Company       | Number of Nodes<br>Expected to Contribute | Machine Type |
+| ------------- |:-------------:|:-----------------------------------------:|:-------------:|
+| [@ajeetsraina](https://twitter.com/ajeetsraina) | Collabnix | 10 | |
+[@anmolnagpal](https://twitter.com/anmol_nagpal) | CloudDrove Inc. | 15 | |
+[@cube8021](https://twitter.com/cube8021) | Rancher Labs | 5 | |
+| [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 32 | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
+| [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 3 | Raspberry Pis 3B+/4B |
+| [Your Name](https://twitter.com/yourid) | Your Company Name| 8 | |
 
 
 ## Beginner's Guide
