@@ -47,6 +47,7 @@ It's great opportunity for community members to learn, collaborate and contribut
 | [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 32 | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
 | [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 3 | Raspberry Pis 3B+/4B |
 | [@vinayaggarwal](https://twitter.com/vnyagarwal) | Dellemc| 2 | |
+| [@josanabr](https://twitter.com/josanabr)| Personal | 2 | Raspberry Pis 3B+/4B |
 | [Your Name](https://twitter.com/yourid) | Your Company Name| 8 | |
 
 
