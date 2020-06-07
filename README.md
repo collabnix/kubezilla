@@ -8,6 +8,16 @@ We are aiming to build a largest Kubernetes Community Cluster and target to show
 
 It's great opportunity for community members to learn, collaborate and contribute around Kubernetes and related technologies. As a team, we will learn how Kubernetes cluster is setup, how apps gets deployed over Cloud and what kind of microservices can be run possibly on these HUGE cluster nodes.Community members will learn how monitoring tools like Prometheus and Grafana can be deployed and fetch time-series metrics out of these HUGE cluster of nodes. In nutshell, it's 2-3 hour effort which will let every single individual to learn Kubernetes and understand its scalability.
 
+## When? 
+
+> We are targeting 27th June starting 2:00 PM till 4:00 PM for Kubezilla. [Refer to Issue #6](https://github.com/collabnix/kubezilla/issues/6)
+
+| Activity | Date | Time |
+| :-: | :-: | :-: |
+| Rehearsal | TODO | TODO |
+| Live Demo | 27th June 2020 | 2:00 PM to 4:00 PM |
+
+
 ## Contribution Proposal
 
   1. Create a pull request if you're interested to contribute your FREE Cloud instance(AWS/Azure/GCP/DO).
