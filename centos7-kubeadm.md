@@ -17,7 +17,7 @@ exclude=kubelet kubeadm kubectl
 EOF
 ```
 
-2.  Set SELinux in permissive mode (effectively disabling it)
+## Setting up SELinux in permissive mode (effectively disabling it)
 
 ```
 setenforce 0
@@ -26,13 +26,13 @@ yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
 systemctl enable --now kubelet
 ```
 
-2. Init kubeadm - This is only for Master
+## Initialize kubeadm - This is only for Master
 
 ```
 kubeadm init
 ```
 
-3. Setting up kubeconfig - This is only for Master Node
+## Setting up kubeconfig - This is only for Master Node
 
 ```
   mkdir -p $HOME/.kube
@@ -40,19 +40,19 @@ kubeadm init
   chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
-4. Copy token from kubeadmn init snippet - This you should copy from Master. This you will get from Master node only
+## Copy token from kubeadmn init snippet - This you should copy from Master. This you will get from Master node only
 
 ```
 kubeadm join <control-plane-host>:<control-plane-port> --token <token> --discovery-token-ca-cert-hash sha256:<hash>
 ```
 
-5. Installing Network Plugin - This is only for Master Node
+## Installing Network Plugin - This is only for Master Node
 
 ```
 kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
 ```
 
-6. Join Worker Nodes - This is only for Worker Nodes
+## Join Worker Nodes - This is only for Worker Nodes
 
 ```
 kubeadm join --token <token> <control-plane-host>:<control-plane-port> --discovery-token-ca-cert-hash sha256:<hash>
