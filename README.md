@@ -58,6 +58,7 @@ It's great opportunity for community members to learn, collaborate and contribut
 | [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 3 | Raspberry Pis 3B+/4B |
 | [@vinayaggarwal](https://twitter.com/vnyagarwal) | Dellemc| 2 | |
 | [@josanabr](https://twitter.com/josanabr)| Personal | 2 | Raspberry Pis 3B+/4B |
+| [@kvenu](https://www.linkedin.com/in/kumaresan-venu-91649aa1/)| Personal | 2 | |
 | [Your Name](https://twitter.com/yourid) | Your Company Name| 8 | |
 
 
