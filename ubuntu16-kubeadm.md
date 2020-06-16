@@ -1,6 +1,8 @@
-# Installing kubernetes with kubeadm on Ubuntu 16.04+ or Debian 9+ or HypriotOS v1.0.1+
+# Installing kubernetes with kubeadm on Ubuntu 16.04+/Debian 9+/HypriotOS v1.0.1+
+
 ## Installing kubeadm kubectl kubelet
-1. Copy paste the below snippet one by one in your CLI terminal - This is for both Master and Worker Nodes
+
+Copy paste the below snippet one by one in your CLI terminal - This is for both Master and Worker Nodes
 
 ```
 sudo apt-get update && sudo apt-get install -y apt-transport-https curl
@@ -12,29 +14,44 @@ sudo apt-get update
 sudo apt-get install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl
 ```
-2. Init kubeadm - This is only for Master
+
+## Initialize kubeadm - This is only for Master
+
 ```
 kubeadm init
 ```
-3. Setting up kubeconfig - This is only for Master Node
+
+## Setting up kubeconfig - This is only for Master Node
+
 ```
   mkdir -p $HOME/.kube
   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
-4. Copy token from kubeadmn init snippet - This you should copy from Master. This you will get from Master node only
+
+
+## Copying token from kubeadmn init snippet - This you should copy from Master. This you will get from Master node only
+
 ```
 kubeadm join <control-plane-host>:<control-plane-port> --token <token> --discovery-token-ca-cert-hash sha256:<hash>
 ```
-5. Installing Network Plugin - This is only for Master Node
+
+
+## Installing Network Plugin - This is only for Master Node
+
 ```
 kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"
 ```
-6. Join Worker Nodes - This is only for Worker Nodes
+
+
+## Joining Worker Nodes - This is only for Worker Nodes
+
 ```
 kubeadm join --token <token> <control-plane-host>:<control-plane-port> --discovery-token-ca-cert-hash sha256:<hash>
 ```
+
 ## Note:
+
 Please do not run Master node snippet commands on Worker Nodes.
 
 ## References 
