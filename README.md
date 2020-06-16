@@ -1,6 +1,6 @@
 # KubeZilla Community Collaborative Project
 
-   ![image](https://github.com/collabnix/kubezilla/blob/master/images/ed29dafc-4080-4900-b3f4-bb7c4ef41c81_200x200.png)
+ <b> <b><b><b> ![image](https://github.com/collabnix/kubezilla/blob/master/images/ed29dafc-4080-4900-b3f4-bb7c4ef41c81_200x200.png)
 
 We are aiming to build a largest Kubernetes Community Cluster and target to showcase it on OSCONF Kochi Day.
 
