@@ -1,4 +1,4 @@
-# Installing kubernetes with kubeadm on Ubuntu 16
+# Installing kubernetes with kubeadm on Ubuntu 16.04+ or Debian 9+ or HypriotOS v1.0.1+
 ## Installing kubeadm kubectl kubelet
 1. Copy paste the below snippet one by one in your CLI terminal - This is for both Master and Worker Nodes
 
@@ -37,6 +37,6 @@ kubeadm join --token <token> <control-plane-host>:<control-plane-port> --discove
 ## Note:
 Please do not run Master node snippet commands on Worker Nodes.
 
-## Reference 
+## References 
 1. https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-kubeadm-kubelet-and-kubectl
 2. https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/#initializing-your-control-plane-node
