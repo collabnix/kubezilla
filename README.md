@@ -1,6 +1,6 @@
 # KubeZilla Community Collaborative Project
 
-   ![image](https://github.com/collabnix/kubezilla/blob/master/images/kubezilla.png)
+ ![image](https://github.com/collabnix/kubezilla/blob/master/images/7a760dac-f51b-4c48-a1db-01c5f7cae52d_200x200.png)
 
 We are aiming to build a largest Kubernetes Community Cluster and target to showcase it on OSCONF Kochi Day.
 
@@ -30,13 +30,13 @@ It's great opportunity for community members to learn, collaborate and contribut
   ## What's mininum requirements of a node?
   
 - Rancher 
-- Ubuntu 16.04+
-- Debian 9+
-- CentOS 7
-- Red Hat Enterprise Linux (RHEL) 7
-- Fedora 25+
-- HypriotOS v1.0.1+
-- Container Linux (tested with 1800.6.0)
+- [Ubuntu 16.04+](https://github.com/collabnix/kubezilla/blob/master/ubuntu16-kubeadm.md)<br>
+- [Debian 9+](https://github.com/collabnix/kubezilla/blob/master/ubuntu16-kubeadm.md)<br>
+- [CentOS 7](https://github.com/collabnix/kubezilla/blob/master/centos7-kubeadm.md)<br>
+- [Red Hat Enterprise Linux (RHEL) 7](https://github.com/collabnix/kubezilla/blob/master/centos7-kubeadm.md)<br>
+- [Fedora 25+](https://github.com/collabnix/kubezilla/blob/master/centos7-kubeadm.md)<br>
+- [HypriotOS v1.0.1+](https://github.com/collabnix/kubezilla/blob/master/ubuntu16-kubeadm.md)<br>
+- [Container Linux (tested with 1800.6.0)](https://github.com/collabnix/kubezilla/blob/master/ContainerLinux-with-kubeadm.md)<br>
 - 2 GB or more of RAM per machine (any less will leave little room for your apps)
 - 2 CPUs or more
 - Full network connectivity between all machines in the cluster (public or private network is fine)
