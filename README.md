@@ -1,4 +1,6 @@
 # KubeZilla Community Collaborative Project
+[![Gitter](https://img.shields.io/gitter/room/DAVFoundation/DAV-Contributors.svg?style=flat-square)](https://gitter.im/kubezilla/community) 
+
 
  ![image](https://github.com/collabnix/kubezilla/blob/master/images/7a760dac-f51b-4c48-a1db-01c5f7cae52d_200x200.png)
 
