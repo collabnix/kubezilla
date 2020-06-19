@@ -14,9 +14,9 @@ It's great opportunity for community members to learn, collaborate and contribut
 
 > We are targeting 27th June starting 2:00 PM till 4:00 PM for Kubezilla. [Refer to Issue #6](https://github.com/collabnix/kubezilla/issues/6)
 
-| Activity | Date | Time |
-| :-: | :-: | :-: |
-| Rehearsal | TODO | TODO |
+| Activity  |      Date      |        Time        |
+| :-------: | :------------: | :----------------: |
+| Rehearsal |      TODO      |        TODO        |
 | Live Demo | 27th June 2020 | 2:00 PM to 4:00 PM |
 
 
@@ -51,17 +51,18 @@ It's great opportunity for community members to learn, collaborate and contribut
 ## Contributors
 
 
-| Name          | Company       | Number of Nodes<br>Expected to Contribute | Machine Type |
-| ------------- |:-------------:|:-----------------------------------------:|:-------------:|
-| [@ajeetsraina](https://twitter.com/ajeetsraina) | Collabnix | 10 | |
-[@anmolnagpal](https://twitter.com/anmol_nagpal) | CloudDrove Inc. | 30 | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
-[@cube8021](https://twitter.com/cube8021) | Rancher Labs | 5 | |
-| [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 32 | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
-| [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) | 3 | Raspberry Pis 3B+/4B |
-| [@vinayaggarwal](https://twitter.com/vnyagarwal) | Dellemc| 2 | |
-| [@josanabr](https://twitter.com/josanabr)| Personal | 2 | Raspberry Pis 3B+/4B |
-| [@kvenu](https://www.linkedin.com/in/kumaresan-venu-91649aa1/)| Personal | 2 | |
-| [Your Name](https://twitter.com/yourid) | Your Company Name| 8 | |
+| Name                                                                                                                                                       |                Company                | Number of Nodes<br>Expected to Contribute |             Machine Type             |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------: | :---------------------------------------: | :----------------------------------: |
+| [@ajeetsraina](https://twitter.com/ajeetsraina)                                                                                                            |               Collabnix               |                    10                     |                                      |
+| [@anmolnagpal](https://twitter.com/anmol_nagpal)                                                                                                           |            CloudDrove Inc.            |                    30                     | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
+| [@cube8021](https://twitter.com/cube8021)                                                                                                                  |             Rancher Labs              |                     5                     |                                      |
+| [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) |                    32                     | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
+| [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) |                     3                     |         Raspberry Pis 3B+/4B         |
+| [@vinayaggarwal](https://twitter.com/vnyagarwal)                                                                                                           |                Dellemc                |                     2                     |                                      |
+| [@josanabr](https://twitter.com/josanabr)                                                                                                                  |               Personal                |                     2                     |         Raspberry Pis 3B+/4B         |
+| [@kvenu](https://www.linkedin.com/in/kumaresan-venu-91649aa1/)                                                                                             |               Personal                |                     2                     |                                      |
+| [@MeenachiSundaram](https://twitter.com/vmeenachis) <br/>([github](https://github.com/MeenachiSundaram)) ([linkedin](https://www.linkedin.com/in/meenz/))  |               Personal                |                     2                     |           Raspberry Pis 4B           |
+| [Your Name](https://twitter.com/yourid)                                                                                                                    |           Your Company Name           |                     8                     |                                      |
 
 
 ## Beginner's Guide
