@@ -1,4 +1,4 @@
-# KubeZilla Community Collaborative Project
+# [KubeZilla Community Collaborative Project](https://kubezilla.com)
 [![Gitter](https://img.shields.io/gitter/room/DAVFoundation/DAV-Contributors.svg?style=flat-square)](https://gitter.im/kubezilla/community) 
 
 
