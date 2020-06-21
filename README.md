@@ -68,7 +68,9 @@ It's great opportunity for community members to learn, collaborate and contribut
 ## Beginner's Guide
 If you're an individual and it's your first time joining KubeZilla, we encourage you to *not* contribute more than 50 nodes.
 
+## Setting up Master Node
 
+- [Click Here](https://github.com/collabnix/kubezilla/blob/master/master/README.md)
 
 ## Goals
 - This is the 1st collaborative project powered by Collabnix Slack community to form 100+ nodes
