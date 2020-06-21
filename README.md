@@ -75,7 +75,8 @@ First thing you need to do is to make sure that the public ip that your VM has i
 
 
 ```
-ip address add [public-ip]/32 dev [nic] 
+ip route add [public-ip]/32 dev [nic]
+ 
 ```
 
 Then, run the below command:
