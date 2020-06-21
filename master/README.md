@@ -9,20 +9,19 @@ You must add publicIP interface for kubeadm init to work. Caution: If you dont a
 Follow the below steps to configure public IP:
 
 
-Tested Environment: UBuntu 16.04/18.04/20.04
+## Tested Environment: Ubuntu 16.04/18.04/20.04
 
-Ubuntu 20.04:
 
-##  Access the server via SSH
+### Step #1: Access your Cloud Instance via SSH
 
-##  Create the configuration file and open an editor
+### Step #2:  Create the configuration file and open an editor
 
 ```
 touch /etc/netplan/60-floating-ip.yaml
 nano /etc/netplan/60-floating-ip.yaml
 ```
 
-## Paste the following configuration into the editor and replace <YOUR PUBLIC IP> with your actual public IP.
+### Step #3:  Paste the following configuration into the editor and replace <YOUR PUBLIC IP> with your actual public IP.
 
 IPv4:
 
@@ -36,11 +35,13 @@ network:
 ```
 
 
-##  Now you should restart your network. Caution: This will reset your network connection
+### Step #4:  Restart your network. Caution: This will reset your network connection
 
 ```
 sudo netplan apply
 ```
+
+### Step #5: Verify if private IP interface gets replaced by the public IP
 
 ```
 $ ifconfig ens4
@@ -55,7 +56,7 @@ ens4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1460
  ```
 
 
-## Initialize the Kubeadm
+### Step #6:  Initialize the Kubeadm
 
 
 
@@ -63,7 +64,16 @@ ens4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1460
 sudo kubeadm init --apiserver-advertise-address=34.75.235.117 --control-plane-endpoint=34.75.235.117 --upload-certs --pod-network-cidr 10.5.0.0/16
 ```
 
-## Configuring Kube Router
+### Step #6:  Kubeconfig Configuration
+
+```
+mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
+
+
+### Step #7:  Configuring Kube Router
 
 We tested it with Calico/Weave but it kept crashing. Kube Router looks to be perfect solution.
 
@@ -71,7 +81,7 @@ We tested it with Calico/Weave but it kept crashing. Kube Router looks to be per
 kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml
 ```
 
-## Verfiying Kube components
+### Steps #8: Verfiying Kube components
 
 ```
 $ sudo kubectl get componentstatus
@@ -82,7 +92,7 @@ etcd-0               Healthy   {"health":"true"}
 
 ```
 
-## Ensuring kube router is up and running
+### Step #9:  Ensuring kube router is up and running
 
 
 ```
@@ -107,4 +117,12 @@ kube-system   kube-router-q7lq6                 1/1     Running                 
 kube-system   kube-router-rx4bm                 1/1     Running                    0          44m
 kube-system   kube-router-xkdpd                 1/1     Running                    0          87m
 kube-system   kube-scheduler-worker1            1/1     Running                    0          90m
+```
+
+### Step #10: Verify the nodes
+
+```
+$ sudo kubectl get nodes
+NAME              STATUS     ROLES    AGE   VERSION
+node1           Ready      master   96m   v1.18.4
 ```
