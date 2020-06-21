@@ -83,8 +83,13 @@ Then, run the below command:
 
 ```
 kubeadm init --apiserver-advertise-address <publicIp> --pod-network-cidr 10.5.0.0/16
-``` 
+```
 
+## Configuring Kube Router
+
+```
+kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml
+```
 
 
 ## Goals
