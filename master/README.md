@@ -4,6 +4,9 @@
 ## Configuring the networking stuff
 
 By default, if you run ```ifconfig``` command on your Cloud instance, it shows private IP address(and not Public).
+You must add publicIP interface for kubeadm init to work. Caution: If you dont add publicIP interface, kubeadm init --apiserver-advertise-address=publicIP will not success.
+
+Follow the below steps to configure public IP:
 
 
 Tested Environment: UBuntu 16.04/18.04/20.04
