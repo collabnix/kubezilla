@@ -64,7 +64,7 @@ ens4: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1460
 sudo kubeadm init --apiserver-advertise-address=34.75.235.117 --control-plane-endpoint=34.75.235.117 --upload-certs --pod-network-cidr 10.5.0.0/16
 ```
 
-### Step #6:  Kubeconfig Configuration
+### Step #7:  Kubeconfig Configuration
 
 ```
 mkdir -p $HOME/.kube
@@ -73,7 +73,7 @@ mkdir -p $HOME/.kube
 ```
 
 
-### Step #7:  Configuring Kube Router
+### Step #8:  Configuring Kube Router
 
 We tested it with Calico/Weave but it kept crashing. Kube Router looks to be perfect solution.
 
@@ -81,7 +81,7 @@ We tested it with Calico/Weave but it kept crashing. Kube Router looks to be per
 kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml
 ```
 
-### Steps #8: Verfiying Kube components
+### Steps #9: Verfiying Kube components
 
 ```
 $ sudo kubectl get componentstatus
@@ -92,7 +92,7 @@ etcd-0               Healthy   {"health":"true"}
 
 ```
 
-### Step #9:  Ensuring kube router is up and running
+### Step #10:  Ensuring kube router is up and running
 
 
 ```
@@ -119,7 +119,7 @@ kube-system   kube-router-xkdpd                 1/1     Running                 
 kube-system   kube-scheduler-worker1            1/1     Running                    0          90m
 ```
 
-### Step #10: Verify the nodes
+### Step #11: Verify the nodes
 
 ```
 $ sudo kubectl get nodes
