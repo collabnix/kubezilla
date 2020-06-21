@@ -16,7 +16,7 @@ It's great opportunity for community members to learn, collaborate and contribut
 
 | Activity  |      Date      |        Time        |
 | :-------: | :------------: | :----------------: |
-| Rehearsal |      TODO      |        TODO        |
+| Rehearsal | 21st June 2020 |11:00 AM to 1:00 PM |
 | Live Demo | 27th June 2020 | 2:00 PM to 4:00 PM |
 
 
@@ -68,6 +68,21 @@ It's great opportunity for community members to learn, collaborate and contribut
 ## Beginner's Guide
 If you're an individual and it's your first time joining KubeZilla, we encourage you to *not* contribute more than 50 nodes.
 
+## How to configure Master Node
+
+First thing you need to do is to make sure that the public ip that your VM has is actually associated to a network interface in your VM. Usually cloud providers don't do this by default, so you have to run below CLI on your master node
+
+
+
+```
+ip address add [public-ip]/32 dev [nic] 
+```
+
+Then, run the below command:
+
+```
+kubeadm init --apiserver-advertise-address <publicIp> --pod-network-cidr 10.5.0.0/16
+``` 
 
 
 
