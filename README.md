@@ -82,3 +82,7 @@ If you're an individual and it's your first time joining KubeZilla, we encourage
 ## Results
 All experimental results will be provided publicly for all of you to analyze, write blogs,
 or even used as information for further development of your own commercial projects. Please feel free to use it.
+
+## Who's behind Kubezilla?
+
+Kubezilla is a non-profit project organized by Docker Captains [Ajeet Singh Raina](https://twitter.com/ajeetsraina) and [Marcos Nils](https://twitter.com/marcosnils). If you want to be part of the organization team or support through sponsorship, please send us a DM in Gitter. 
