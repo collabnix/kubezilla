@@ -15,6 +15,10 @@
 
 5) Make sure all machines are updated (using the commands **sudo apt-get update**)
    
+6) Enable the cgroup memory:
+   
+   Add **cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1** to /boot/firmware/nobtcmd.txt and restart.
+   
    ## Installing Docker
 1) The first thing to be done is the installation of Docker. To do this, log into the pi using SSH and issue the command 
    
