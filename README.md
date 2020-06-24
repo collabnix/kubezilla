@@ -48,6 +48,35 @@ It's great opportunity for community members to learn, collaborate and contribut
 - TCP	Inbound	10250	open for Kubelet API	
 - TCP	Inbound	30000-32767 open for NodePort Services
 
+## Size of Master & Master Components
+
+```
+
+On GCE/Google Kubernetes Engine, and AWS, kube-up automatically configures the proper VM size for your master depending on the number of nodes in your cluster. On other providers, you will need to configure it manually. 
+
+For reference, the sizes we use on GCE are
+
+```
+1-5 nodes: n1-standard-1
+6-10 nodes: n1-standard-2
+11-100 nodes: n1-standard-4
+101-250 nodes: n1-standard-8
+251-500 nodes: n1-standard-16
+more than 500 nodes: n1-standard-32
+```
+
+And the sizes we use on AWS are
+
+```
+1-5 nodes: m3.medium
+6-10 nodes: m3.large
+11-100 nodes: m3.xlarge
+101-250 nodes: m3.2xlarge
+251-500 nodes: c4.4xlarge
+more than 500 nodes: c4.8xlarge
+```
+
+
 ## Contributors
 
 
