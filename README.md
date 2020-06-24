@@ -114,3 +114,6 @@ or even used as information for further development of your own commercial proje
 ## Who's behind Kubezilla?
 
 Kubezilla is a non-profit project organized by Docker Captains [Ajeet Singh Raina](https://twitter.com/ajeetsraina) and [Marcos Nils](https://twitter.com/marcosnils). If you want to be part of the organization team or support through sponsorship, please send us a DM in Gitter. 
+
+## Feel difficulty raising pr for contributing here ?
+go and add your nodes [here](https://docs.google.com/forms/d/e/1FAIpQLScoezFOQjtXUY2U0bkxdyr0BXTR__1ARufoJNd1l5m8idewrQ/viewform?usp=sf_link)
