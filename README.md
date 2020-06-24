@@ -50,7 +50,6 @@ It's great opportunity for community members to learn, collaborate and contribut
 
 ## Size of Master & Master Components
 
-```
 
 On GCE/Google Kubernetes Engine, and AWS, kube-up automatically configures the proper VM size for your master depending on the number of nodes in your cluster. On other providers, you will need to configure it manually. 
 
