@@ -62,6 +62,7 @@ It's great opportunity for community members to learn, collaborate and contribut
 | [@josanabr](https://twitter.com/josanabr)                                                                                                                  |               Personal                |                     2                     |         Raspberry Pis 3B+/4B         |
 | [@kvenu](https://www.linkedin.com/in/kumaresan-venu-91649aa1/)                                                                                             |               Personal                |                     2                     |                                      |
 | [@MeenachiSundaram](https://twitter.com/vmeenachis) <br/>([github](https://github.com/MeenachiSundaram)) ([linkedin](https://www.linkedin.com/in/meenz/))  |               Personal                |                     2                     |           Raspberry Pis 4B           |
+| [@stefscherer](https://twitter.com/stefscherer)                                                                                                                    |           [Docker Inc.](https://docker.com)           |                     2                     |          Raspberry Pis 3B+                 |
 | [Your Name](https://twitter.com/yourid)                                                                                                                    |           Your Company Name           |                     8                     |                                      |
 
 
