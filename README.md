@@ -2,6 +2,9 @@
 [![Gitter](https://img.shields.io/gitter/room/DAVFoundation/DAV-Contributors.svg?style=flat-square)](https://gitter.im/kubezilla/community) 
 
 
+## Special Thanks
+
+DigitalOcean sponsored $500 credits to provision Multi-master nodes for HA.
  
 
 We are aiming to build a largest Kubernetes Community Cluster and target to showcase it on OSCONF Kochi Day.
