@@ -63,14 +63,7 @@ That's it. Open up osconf.kubezilla.com with kubezilla as login and kubezilla as
   
   ## What's mininum requirements of a node?
   
-- Rancher 
-- [Ubuntu 16.04+](https://github.com/collabnix/kubezilla/blob/master/ubuntu16-kubeadm.md)<br>
-- [Debian 9+](https://github.com/collabnix/kubezilla/blob/master/ubuntu16-kubeadm.md)<br>
-- [CentOS 7](https://github.com/collabnix/kubezilla/blob/master/centos7-kubeadm.md)<br>
-- [Red Hat Enterprise Linux (RHEL) 7](https://github.com/collabnix/kubezilla/blob/master/centos7-kubeadm.md)<br>
-- [Fedora 25+](https://github.com/collabnix/kubezilla/blob/master/centos7-kubeadm.md)<br>
-- [HypriotOS v1.0.1+](https://github.com/collabnix/kubezilla/blob/master/ubuntu16-kubeadm.md)<br>
-- [Container Linux (tested with 1800.6.0)](https://github.com/collabnix/kubezilla/blob/master/ContainerLinux-with-kubeadm.md)<br>
+
 - 2 GB or more of RAM per machine (any less will leave little room for your apps)
 - 2 CPUs or more
 - Full network connectivity between all machines in the cluster (public or private network is fine)
