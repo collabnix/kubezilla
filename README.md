@@ -20,6 +20,25 @@ It's great opportunity for community members to learn, collaborate and contribut
 | Live Demo | 27th June 2020 | 2:00 PM to 4:00 PM |
 
 
+## How shall I join my worker node?
+
+It's simple. Follow the below steps:
+
+### Installing Docker
+
+```
+curl -sSL https://get.docker.com/ | sh
+```
+
+## Run the below container (with your choice of key=value)
+
+```
+sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.4.5 --server https://139.59.51.88 --token v4lqhz4x9msbx8zx7jkz7swbcqxltx9w9jrg59hwngtvgqxwhvqhjs --ca-checksum aa504f82a9e75259dd45a9d65e13d094899921fbbe7e1fc9a1daa721f5fefc8d --worker --label key=value
+```
+
+That's it. Open up osconf.kubezilla.com with kubezilla as login and kubezilla as password
+
+
 ## Contribution Proposal
 
   1. Create a pull request if you're interested to contribute your FREE Cloud instance(AWS/Azure/GCP/DO).
