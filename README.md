@@ -30,14 +30,19 @@ It's simple. Follow the below steps:
 curl -sSL https://get.docker.com/ | sh
 ```
 
-## Run the below container (with your choice of key=value)
+## Run the below container 
+
+**Make sure to update the label below before running.**
+Node can be **node=cloud or rpi or jetson**
+**name=<your_name>**
 
 ```
 sudo docker run -d --privileged --restart=unless-stopped \
   --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.4.5 \
   --server https://139.59.51.88 --token v4lqhz4x9msbx8zx7jkz7swbcqxltx9w9jrg59hwngtvgqxwhvqhjs \
   --ca-checksum aa504f82a9e75259dd45a9d65e13d094899921fbbe7e1fc9a1daa721f5fefc8d --worker \
-  --label key=value
+  --label node=cloud \
+  --label name=your_name
 ```
 
 That's it. Open up osconf.kubezilla.com with kubezilla as login and kubezilla as password
