@@ -33,7 +33,11 @@ curl -sSL https://get.docker.com/ | sh
 ## Run the below container 
 
 **Make sure to update the label below before running.**
-Node can be **node=cloud or rpi or jetson**
+
+> Very Important
+
+Node can be **node=cloud** or **node=rpi** or **node=jetson**
+
 **name=<your_name>**
 
 ```
