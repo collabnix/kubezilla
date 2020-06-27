@@ -44,12 +44,7 @@ Node can be **node=cloud** or **node=rpi** or **node=jetson**
 **name=<your_name>**
 
 ```
-sudo docker run -d --privileged --restart=unless-stopped \
-  --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.4.5 \
-  --server https://139.59.51.88 --token 787zkd72flrpl47gvqtk2kqmpqr9s58q9g5z6xp57zktxz2dnhqf7g \
-  --ca-checksum aa504f82a9e75259dd45a9d65e13d094899921fbbe7e1fc9a1daa721f5fefc8d --worker \
-  --label node=cloud \
-  --label name=<your_name>
+sudo docker run -d --privileged --restart=unless-stopped --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.4.5 --server https://success.kubezilla.com --token xg8sm7fgxgls7p52rcjbkjsszp2cb8l4gmfqpvxt48s65dcqhjvqww --worker --label node=cloud --label name=kubezilla
 ```
 
 That's it. Open up osconf.kubezilla.com with kubezilla as login and kubezilla as password
