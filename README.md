@@ -46,10 +46,10 @@ Node can be **node=cloud** or **node=rpi** or **node=jetson**
 ```
 sudo docker run -d --privileged --restart=unless-stopped \
   --net=host -v /etc/kubernetes:/etc/kubernetes -v /var/run:/var/run rancher/rancher-agent:v2.4.5 \
-  --server https://139.59.51.88 --token v4lqhz4x9msbx8zx7jkz7swbcqxltx9w9jrg59hwngtvgqxwhvqhjs \
+  --server https://139.59.51.88 --token 787zkd72flrpl47gvqtk2kqmpqr9s58q9g5z6xp57zktxz2dnhqf7g \
   --ca-checksum aa504f82a9e75259dd45a9d65e13d094899921fbbe7e1fc9a1daa721f5fefc8d --worker \
   --label node=cloud \
-  --label name=your_name
+  --label name=<your_name>
 ```
 
 That's it. Open up osconf.kubezilla.com with kubezilla as login and kubezilla as password
@@ -110,7 +110,7 @@ more than 500 nodes: c4.8xlarge
 | Name                                                                                                                                                       |                Company                | Number of Nodes<br>Expected to Contribute |             Machine Type             |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------: | :---------------------------------------: | :----------------------------------: |
 | [@ajeetsraina](https://twitter.com/ajeetsraina)                                                                                                            |               Collabnix               |                    10                     |                                      |
-| [@anmolnagpal](https://twitter.com/anmol_nagpal)                                                                                                           |            CloudDrove Inc.            |                    30                     | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
+| [@anmolnagpal](https://twitter.com/anmol_nagpal)<br/>([github](https://github.com/anmolnagpal)) ([linkedin](https://www.linkedin.com/in/anmolnagpal/))        | [CloudDrove Inc.](https://clouddrove.com) |                    45                     | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
 | [@cube8021](https://twitter.com/cube8021)                                                                                                                  |             Rancher Labs              |                     5                     |                                      |
 | [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) |                    32                     | t3.medium/t3a.medium (2 vCPUs, 4 GB) |
 | [@dostiharise](https://twitter.com/dostiharise)<br/>([github](https://github.com/dostiharise)) ([linkedin](https://www.linkedin.com/in/harikrishnaganji/)) | [Alvyl Consulting](https://alvyl.com) |                     3                     |         Raspberry Pis 3B+/4B         |
