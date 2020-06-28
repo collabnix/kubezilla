@@ -115,6 +115,7 @@ more than 500 nodes: c4.8xlarge
 | [@MeenachiSundaram](https://twitter.com/vmeenachis) <br/>([github](https://github.com/MeenachiSundaram)) ([linkedin](https://www.linkedin.com/in/meenz/))  |               Personal                |                     2                     |           Raspberry Pis 4B           |
 | [@stefscherer](https://twitter.com/stefscherer)                                                                                                                    |           [Docker Inc.](https://docker.com)           |                     2                     |          Raspberry Pis 3B+                 |
 | [@stefscherer](https://twitter.com/stefscherer)                                                                                                                    |           [Docker Inc.](https://docker.com)           |                     10                     |          Azure (5x D8s, 5x D32s)                 |
+| [@ginigangadharan](https://twitter.com/ginigangadharan)                                                                                                                    |           [techbeatly](https://www.techbeatly.com/)           |                     1                     |          GCP (1x n1-standard-2)                 |
 | [Your Name](https://twitter.com/yourid)                                                                                                                    |           Your Company Name           |                     8                     |                                      |
 
 
