@@ -98,6 +98,12 @@ And the sizes we use on AWS are
 more than 500 nodes: c4.8xlarge
 ```
 
+# Ports required to be open on Worker Nodes
+
+```
+TCP     10250       Kubelet API
+TCP     10255       Read-Only Kubelet API
+```
 
 ## Contributors
 
