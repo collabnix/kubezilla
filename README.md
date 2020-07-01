@@ -120,10 +120,11 @@ TCP     10255       Read-Only Kubelet API
 | [@kvenu](https://www.linkedin.com/in/kumaresan-venu-91649aa1/)                                                                                             |               Personal                |                     2                     |                                      |
 | [@MeenachiSundaram](https://twitter.com/vmeenachis) <br/>([github](https://github.com/MeenachiSundaram)) ([linkedin](https://www.linkedin.com/in/meenz/))  |               Personal                |                     2                     |           Raspberry Pis 4B           |
 | [@stefscherer](https://twitter.com/stefscherer)                                                                                                                    |           [Docker Inc.](https://docker.com)           |                     2                     |          Raspberry Pis 3B+                 |
-| [@stefscherer](https://twitter.com/stefscherer)                                                                                                                    |           [Docker Inc.](https://docker.com)           |                     10                     |          Azure (5x D8s, 5x D32s)                 |
-| [@ginigangadharan](https://twitter.com/ginigangadharan)                                                                                                                    |           [Personal](https://www.iamgini.com/)           |                     1                     |          GCP (1x n1-standard-2/2CPU-8GB)                 |
-| [@omkarjoshi](https://www.linkedin.com/in/omkarj/)                                                                                                                    |           [Personal](https://www.linkedin.com/in/omkarj/)           |                     4                     |          AWS (3x t2.micro) and 1 Docker Desktop                 |
-| [Your Name](https://twitter.com/yourid)                                                                                                                    |           Your Company Name           |                     8                     |                                      |
+| [@stefscherer](https://twitter.com/stefscherer) [Docker Inc.](https://docker.com)           |                     10                     |          Azure (5x D8s, 5x D32s)                 |
+| [@ginigangadharan](https://twitter.com/ginigangadharan)  
+| [@omkarjoshi](https://www.linkedin.com/in/omkarj/) 
+
+                                                                                                                  |           Your Company Name           |                     8                     |                                      |
 
 
 ## Beginner's Guide
