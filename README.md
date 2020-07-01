@@ -98,6 +98,12 @@ And the sizes we use on AWS are
 more than 500 nodes: c4.8xlarge
 ```
 
+# Ports required to be open on Worker Nodes
+
+```
+TCP     10250       Kubelet API
+TCP     10255       Read-Only Kubelet API
+```
 
 ## Contributors
 
@@ -114,9 +120,11 @@ more than 500 nodes: c4.8xlarge
 | [@kvenu](https://www.linkedin.com/in/kumaresan-venu-91649aa1/)                                                                                             |               Personal                |                     2                     |                                      |
 | [@MeenachiSundaram](https://twitter.com/vmeenachis) <br/>([github](https://github.com/MeenachiSundaram)) ([linkedin](https://www.linkedin.com/in/meenz/))  |               Personal                |                     2                     |           Raspberry Pis 4B           |
 | [@stefscherer](https://twitter.com/stefscherer)                                                                                                                    |           [Docker Inc.](https://docker.com)           |                     2                     |          Raspberry Pis 3B+                 |
-| [@stefscherer](https://twitter.com/stefscherer)                                                                                                                    |           [Docker Inc.](https://docker.com)           |                     10                     |          Azure (5x D8s, 5x D32s)                 |
-| [@ginigangadharan](https://twitter.com/ginigangadharan)                                                                                                                    |           [iamgini.com](https://www.iamgini.com/)(Personal)          |                     5                    |          GCP -1x (2CPU-8GB)  <br> DO - 4x (4cpu, 8GB)              |
-| [Your Name](https://twitter.com/yourid)                                                                                                                    |           Your Company Name           |                     8                     |                                      |
+| [@stefscherer](https://twitter.com/stefscherer) [Docker Inc.](https://docker.com)           |                     10                     |          Azure (5x D8s, 5x D32s)                 |
+| [@ginigangadharan](https://twitter.com/ginigangadharan)  
+| [@omkarjoshi](https://www.linkedin.com/in/omkarj/) 
+
+                                                                                                                  |           Your Company Name           |                     8                     |                                      |
 
 
 ## Beginner's Guide
