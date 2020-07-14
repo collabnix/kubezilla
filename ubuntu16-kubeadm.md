@@ -2,6 +2,10 @@
 # Installing kubernetes with kubeadm on Ubuntu 16.04+/Debian 9+/HypriotOS v1.0.1+
 
 
+## Pre-requisite
+
+-  Install Docker using ```curl -sSL https://get.docker.com/ | sh ```
+
 ## Installing kubeadm kubectl kubelet
 
 Copy paste the below snippet one by one in your CLI terminal - This is for both Master and Worker Nodes
