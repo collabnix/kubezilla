@@ -4,7 +4,7 @@
 
 ## Special Thanks
 
-**********DigitalOcean sponsored $500 credits to provision Multi-master nodes for HA.
+**DigitalOcean sponsored $500 credits to provision Multi-master nodes for HA*****
  
 
 We are aiming to build a largest Kubernetes Community Cluster and target to showcase it on OSCONF Kochi Day.
