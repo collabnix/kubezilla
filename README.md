@@ -5,7 +5,7 @@
 ## Special Thanks
 
 
-[![Kubezilla in action]()](https://www.youtube.com/watch?v=ghyjiV3ID-k)
+[![Kubezilla in action](https://github.com/collabnix/kubezilla/blob/master/sddefault.jpg)](https://www.youtube.com/watch?v=ghyjiV3ID-k)
 
 https://www.youtube.com/watch?v=ghyjiV3ID-k
 
